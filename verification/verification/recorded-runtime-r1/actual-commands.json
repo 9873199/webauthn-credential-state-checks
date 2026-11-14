@@ -1,0 +1,14 @@
+[
+  {
+    "id": "runtime",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\tasks\\python-fido2\\env\\Scripts\\python.exe",
+      "-B",
+      "demo.py"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 20.96,
+    "typed_command": "python -B demo.py",
+    "input_mode": "automated character editor, not manual typing"
+  }
+]

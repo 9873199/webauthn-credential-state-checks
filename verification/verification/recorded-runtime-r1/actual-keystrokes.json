@@ -1,0 +1,158 @@
+{
+  "mode": "automated console character editor",
+  "source_is_human": false,
+  "events": [
+    {
+      "command_id": "runtime",
+      "event": 0,
+      "key": "p",
+      "requested_delay_seconds": 1.0220831439358549,
+      "actual_at_seconds": 1.02462,
+      "buffer": "p"
+    },
+    {
+      "command_id": "runtime",
+      "event": 1,
+      "key": "y",
+      "requested_delay_seconds": 1.991985677981745,
+      "actual_at_seconds": 3.017874,
+      "buffer": "py"
+    },
+    {
+      "command_id": "runtime",
+      "event": 2,
+      "key": "t",
+      "requested_delay_seconds": 1.389793991005109,
+      "actual_at_seconds": 4.408109,
+      "buffer": "pyt"
+    },
+    {
+      "command_id": "runtime",
+      "event": 3,
+      "key": "h",
+      "requested_delay_seconds": 1.6526358548790485,
+      "actual_at_seconds": 6.061295,
+      "buffer": "pyth"
+    },
+    {
+      "command_id": "runtime",
+      "event": 4,
+      "key": "o",
+      "requested_delay_seconds": 0.6081427426665263,
+      "actual_at_seconds": 6.669804,
+      "buffer": "pytho"
+    },
+    {
+      "command_id": "runtime",
+      "event": 5,
+      "key": "n",
+      "requested_delay_seconds": 0.7753253035101961,
+      "actual_at_seconds": 7.445909,
+      "buffer": "python"
+    },
+    {
+      "command_id": "runtime",
+      "event": 6,
+      "key": " ",
+      "requested_delay_seconds": 0.4654313084095409,
+      "actual_at_seconds": 7.911968,
+      "buffer": "python "
+    },
+    {
+      "command_id": "runtime",
+      "event": 7,
+      "key": "-",
+      "requested_delay_seconds": 1.6767891716242525,
+      "actual_at_seconds": 9.589058,
+      "buffer": "python -"
+    },
+    {
+      "command_id": "runtime",
+      "event": 8,
+      "key": "B",
+      "requested_delay_seconds": 0.36105274144993765,
+      "actual_at_seconds": 9.950462,
+      "buffer": "python -B"
+    },
+    {
+      "command_id": "runtime",
+      "event": 9,
+      "key": " ",
+      "requested_delay_seconds": 0.30393124331043175,
+      "actual_at_seconds": 10.255,
+      "buffer": "python -B "
+    },
+    {
+      "command_id": "runtime",
+      "event": 10,
+      "key": "d",
+      "requested_delay_seconds": 0.7695785397050616,
+      "actual_at_seconds": 11.025017,
+      "buffer": "python -B d"
+    },
+    {
+      "command_id": "runtime",
+      "event": 11,
+      "key": "e",
+      "requested_delay_seconds": 1.9882576599624846,
+      "actual_at_seconds": 13.0139,
+      "buffer": "python -B de"
+    },
+    {
+      "command_id": "runtime",
+      "event": 12,
+      "key": "t",
+      "requested_delay_seconds": 1.7227640142359444,
+      "actual_at_seconds": 14.737063,
+      "buffer": "python -B det"
+    },
+    {
+      "command_id": "runtime",
+      "event": 13,
+      "key": "BACKSPACE",
+      "requested_delay_seconds": 1.4566695792376008,
+      "actual_at_seconds": 16.194259,
+      "buffer": "python -B de"
+    },
+    {
+      "command_id": "runtime",
+      "event": 14,
+      "key": "m",
+      "requested_delay_seconds": 0.5504780103056748,
+      "actual_at_seconds": 16.745336,
+      "buffer": "python -B dem"
+    },
+    {
+      "command_id": "runtime",
+      "event": 15,
+      "key": "o",
+      "requested_delay_seconds": 0.9358989161780711,
+      "actual_at_seconds": 17.681666,
+      "buffer": "python -B demo"
+    },
+    {
+      "command_id": "runtime",
+      "event": 16,
+      "key": ".",
+      "requested_delay_seconds": 0.6321355146815207,
+      "actual_at_seconds": 18.31408,
+      "buffer": "python -B demo."
+    },
+    {
+      "command_id": "runtime",
+      "event": 17,
+      "key": "p",
+      "requested_delay_seconds": 1.1955887136071617,
+      "actual_at_seconds": 19.510378,
+      "buffer": "python -B demo.p"
+    },
+    {
+      "command_id": "runtime",
+      "event": 18,
+      "key": "y",
+      "requested_delay_seconds": 0.5312579889321483,
+      "actual_at_seconds": 20.042815,
+      "buffer": "python -B demo.py"
+    }
+  ]
+}

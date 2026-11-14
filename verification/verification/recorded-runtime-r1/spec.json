@@ -1,0 +1,112 @@
+{
+  "title": "Passkey Account Verification",
+  "directory": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\recording-slow-r2",
+  "cwd": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1",
+  "capture": "wgc",
+  "environment": {
+    "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\replay-source;D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1",
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "commands": [
+    {
+      "id": "runtime",
+      "label": "Verify local account sign-in",
+      "display": "python -B demo.py",
+      "argv": [
+        "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\tasks\\python-fido2\\env\\Scripts\\python.exe",
+        "-B",
+        "demo.py"
+      ],
+      "typing_events": [
+        {
+          "key": "p",
+          "delay_seconds": 1.0220831439358549
+        },
+        {
+          "key": "y",
+          "delay_seconds": 1.991985677981745
+        },
+        {
+          "key": "t",
+          "delay_seconds": 1.389793991005109
+        },
+        {
+          "key": "h",
+          "delay_seconds": 1.6526358548790485
+        },
+        {
+          "key": "o",
+          "delay_seconds": 0.6081427426665263
+        },
+        {
+          "key": "n",
+          "delay_seconds": 0.7753253035101961
+        },
+        {
+          "key": " ",
+          "delay_seconds": 0.4654313084095409
+        },
+        {
+          "key": "-",
+          "delay_seconds": 1.6767891716242525
+        },
+        {
+          "key": "B",
+          "delay_seconds": 0.36105274144993765
+        },
+        {
+          "key": " ",
+          "delay_seconds": 0.30393124331043175
+        },
+        {
+          "key": "d",
+          "delay_seconds": 0.7695785397050616
+        },
+        {
+          "key": "e",
+          "delay_seconds": 1.9882576599624846
+        },
+        {
+          "key": "t",
+          "delay_seconds": 1.7227640142359444
+        },
+        {
+          "key": "BACKSPACE",
+          "delay_seconds": 1.4566695792376008
+        },
+        {
+          "key": "m",
+          "delay_seconds": 0.5504780103056748
+        },
+        {
+          "key": "o",
+          "delay_seconds": 0.9358989161780711
+        },
+        {
+          "key": ".",
+          "delay_seconds": 0.6321355146815207
+        },
+        {
+          "key": "p",
+          "delay_seconds": 1.1955887136071617
+        },
+        {
+          "key": "y",
+          "delay_seconds": 0.5312579889321483
+        }
+      ]
+    }
+  ],
+  "input_automation": {
+    "mode": "automated console character editor",
+    "source_is_human": false,
+    "character_delay_seconds": [
+      0.3,
+      2.0
+    ],
+    "planned_typing_seconds": 20.02980011561831,
+    "visible_corrections_per_command": 1,
+    "command_executes_only_after_exact_buffer_match": true
+  }
+}

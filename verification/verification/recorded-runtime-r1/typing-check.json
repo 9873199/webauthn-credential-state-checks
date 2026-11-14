@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-14T19:41:57+08:00",
+  "status": "PASS",
+  "event_count": 19,
+  "minimum_delay_seconds": 0.30393124331043175,
+  "maximum_delay_seconds": 1.991985677981745,
+  "actual_interval_minimum_seconds": 0.30453800000000086,
+  "actual_interval_maximum_seconds": 1.9932539999999999,
+  "actual_scheduling_tolerance_seconds": 0,
+  "visible_backspace_count": 1,
+  "final_buffer_matches_execution": true,
+  "all_results_inside_recording": true,
+  "source_is_human": false
+}

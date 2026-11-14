@@ -1,0 +1,29 @@
+{
+  "time": "2026-11-14T19:26:40+08:00",
+  "uid": 869,
+  "status": "PASS",
+  "single_native_trace": "D:\\hc\\userFeedback\\cache\\runs\\uf-20261114-pause-recovery-python-fido2-launch2\\frozen\\trajectory-original.jsonl",
+  "trace_sha256": "1bc9f5753d47b8b5992da83a0a403b33e4bf4a6d0d03ac78b8c8273b4ee18fee",
+  "session_id": "cdea38e9-d56e-40b6-8da1-9a111f60f8cd",
+  "prompt_id": "0c9e0e96-ca40-4677-a66d-1184559ebadb",
+  "exact_single_prompt": true,
+  "native_models": [
+    "auto_model/urm"
+  ],
+  "native_efforts": [
+    "high"
+  ],
+  "three_explicit_high_settings": true,
+  "native_success": true,
+  "frozen_files_unchanged": true,
+  "private_reasoning_excluded": true,
+  "event_counts": {
+    "queue-operation": 2,
+    "user": 72,
+    "attachment": 65,
+    "atis-latch": 20,
+    "assistant": 171,
+    "last-prompt": 20,
+    "system": 1
+  }
+}

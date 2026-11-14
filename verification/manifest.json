@@ -1,0 +1,253 @@
+{
+  "created": "2026-11-14T19:42:48+08:00",
+  "reviewed": true,
+  "reviewer": "Codex primary AI-assisted reviewer",
+  "uid": 869,
+  "frozen_commit": "c9440bf692c5bf4f175fc77d0a033f1700d18200",
+  "native_trajectory_sha256": "1bc9f5753d47b8b5992da83a0a403b33e4bf4a6d0d03ac78b8c8273b4ee18fee",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\freeze.json",
+      "path": "freeze.json",
+      "sha256": "af4328bdd17a4fc5809f406af1840565c8056c675def03d5ed7aeefc2f64a100"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "4280d1f6fe1cbac125aa6a45654add905538802bdbae1e1df8c6e26f151058bb"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "c932fa33dedc2083c2d34ef161c0fe9d3f956fd0aba83c3d9e2d378b48f59e09"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "8cb2b90a66141efefc6b9ecf14f5df1779502800dc3eadc686093e086d1d7e6f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\model-final-answer.txt",
+      "path": "model-final-answer.txt",
+      "sha256": "8bc7614d37c7783e301c3bbd95acf8bf5fa8de047025cc78423891171658146d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\test-results.json",
+      "path": "test-results.json",
+      "sha256": "767dfc1884b7fab21bc6ee9fbe0be11df11f842f799cf7ca96bff7548f0059cd"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\evaluation-qc.json",
+      "path": "evaluation-qc.json",
+      "sha256": "d84af24e42ed83a1d42d100d39e1ef8b5aaac068123b17d4ef4d1d280dc2bf40"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\actual-import.json",
+      "path": "verification/account-review-r1/actual-import.json",
+      "sha256": "844869c849b3117d0f4175ed9959a2bb0a1fb50a0ed1a927d5cfe7cb0637a56a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\actual-import.stderr.log",
+      "path": "verification/account-review-r1/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\actual-import.stdout.log",
+      "path": "verification/account-review-r1/actual-import.stdout.log",
+      "sha256": "018af917b674189f3dc6f86d4a721f08a272d9bf5ffdb1895c15e09f5952026a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\demo-before-registration-observation.py",
+      "path": "verification/account-review-r1/demo-before-registration-observation.py",
+      "sha256": "c6b77b4e11e844c4a5fdb7583703f7e77190f5b8d754452732561aa3b1ed2497"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\demo.py",
+      "path": "verification/account-review-r1/demo.py",
+      "sha256": "a2b8cc7b43ad71f5660901437163a4b00046a9e0bdc7164e71e630c8a6cc906e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\dependency-lock.json",
+      "path": "verification/account-review-r1/dependency-lock.json",
+      "sha256": "d35fe0053692560c2faa71219e0135c14d54502ec681a574c47fd01e75f0745a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\dependency-lock.stderr.log",
+      "path": "verification/account-review-r1/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\dependency-lock.stdout.log",
+      "path": "verification/account-review-r1/dependency-lock.stdout.log",
+      "sha256": "daa71dbb33c4dec2d25903be2d0efb47e9dcf480cc84c760b91ecae6a13d6e77"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\independent-account-boundaries.json",
+      "path": "verification/account-review-r1/independent-account-boundaries.json",
+      "sha256": "b0b936e17e3aed6c576394443c8d430d8b97489efb0388704eef5b824036ee14"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\independent-account-boundaries.stderr.log",
+      "path": "verification/account-review-r1/independent-account-boundaries.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\independent-account-boundaries.stdout.log",
+      "path": "verification/account-review-r1/independent-account-boundaries.stdout.log",
+      "sha256": "270c0d56ab095e78e32e64ef16ae8d2542a46e50301f0435e37902bc08909a8f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\model-stateful-server-tests.json",
+      "path": "verification/account-review-r1/model-stateful-server-tests.json",
+      "sha256": "beb892586dc6d616f889247da5d80e13dbbc94587a6ad7b95e71304f80f91318"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\model-stateful-server-tests.stderr.log",
+      "path": "verification/account-review-r1/model-stateful-server-tests.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\model-stateful-server-tests.stdout.log",
+      "path": "verification/account-review-r1/model-stateful-server-tests.stdout.log",
+      "sha256": "591d00021c88faf6f6e0a5bc3df23571e18df2edbda65713818e6b8d28c64764"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\nonhardware-regression.json",
+      "path": "verification/account-review-r1/nonhardware-regression.json",
+      "sha256": "075be2d78af130e4829633a898a3378ad7e375d1b66b5981b5a4f866b9c68ba4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\nonhardware-regression.stderr.log",
+      "path": "verification/account-review-r1/nonhardware-regression.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\nonhardware-regression.stdout.log",
+      "path": "verification/account-review-r1/nonhardware-regression.stdout.log",
+      "sha256": "23dca3c667838052e59a48b0be37892fb81ba7d6062b8145a8c2bc323bc03f76"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\replay-proof.json",
+      "path": "verification/account-review-r1/replay-proof.json",
+      "sha256": "6229e55821a291ca0cb1fd80bcde8a09de38def28431394560aa6e3fcdabfc28"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\reproduction-notes.md",
+      "path": "verification/account-review-r1/reproduction-notes.md",
+      "sha256": "e2ee5f5de08e4fadb71df88161268c3229a58ccb7cdc56c7d6af03a9fdcbf574"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\reviewed-spec.json",
+      "path": "verification/account-review-r1/reviewed-spec.json",
+      "sha256": "673d32a20f71f300418fdeeb4f865741c61f951ea4e048f15d9a3ec4d82fbe54"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\test_webauthn_review.py",
+      "path": "verification/account-review-r1/test_webauthn_review.py",
+      "sha256": "5c6449dd058f687016058d667adbd902e034c1aee2bda537288998a6b3154eef"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\webauthn_fixture.py",
+      "path": "verification/account-review-r1/webauthn_fixture.py",
+      "sha256": "c618b14be18ce0620d8b9e9d409c6b386193405edaec5c047231fe7a579ed982"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\actual-commands.json",
+      "path": "verification/recorded-runtime-r1/actual-commands.json",
+      "sha256": "e567444898e53d699e5ca7bcdd768eff31189ded7cbf886761008c4d2f628c28"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\actual-keystrokes.json",
+      "path": "verification/recorded-runtime-r1/actual-keystrokes.json",
+      "sha256": "31db8cc9ede06c9fc744e82cfbcad0159a72bbeb40a15cec3269a3c2ac67b4c8"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\recording-status.json",
+      "path": "verification/recorded-runtime-r1/recording-status.json",
+      "sha256": "af08318294710f8527daabc0a08e63421198bc6a1fd3bb50947a8428a4bfea75"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\runtime-output.log",
+      "path": "verification/recorded-runtime-r1/runtime-output.log",
+      "sha256": "4115b406b5902696ae6b3b12f454a82c3ff65d608270f29b2894799e74834923"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\spec.json",
+      "path": "verification/recorded-runtime-r1/spec.json",
+      "sha256": "55f31c15e1cca73dc46caa6ba0459eaa805bf41a3b927798087637a669a76cd8"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\recorded-runtime-r1\\typing-check.json",
+      "path": "verification/recorded-runtime-r1/typing-check.json",
+      "sha256": "85e8d2147c8b432a585e9c76f071db13326fe4fe509f09061efeff0c597fc103"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\actual-import.json",
+      "path": "verification/registration-flags-r2/actual-import.json",
+      "sha256": "ffcee9258266aeea0e85701fc20cb914fa77ae99da349c659b2370b91802b367"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\actual-import.stderr.log",
+      "path": "verification/registration-flags-r2/actual-import.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\actual-import.stdout.log",
+      "path": "verification/registration-flags-r2/actual-import.stdout.log",
+      "sha256": "6b4864cdd187e21e9072dbfc70553c32f1ce5036e8e430261c34d4c73fd104f5"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\dependency-lock.json",
+      "path": "verification/registration-flags-r2/dependency-lock.json",
+      "sha256": "46d3b66972539dca5993b250d40f702edb88c2c02f21cdb041a12ea180b817b0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\dependency-lock.stderr.log",
+      "path": "verification/registration-flags-r2/dependency-lock.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\dependency-lock.stdout.log",
+      "path": "verification/registration-flags-r2/dependency-lock.stdout.log",
+      "sha256": "daa71dbb33c4dec2d25903be2d0efb47e9dcf480cc84c760b91ecae6a13d6e77"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\registration-backup-boundaries.json",
+      "path": "verification/registration-flags-r2/registration-backup-boundaries.json",
+      "sha256": "270efdfc4399ad47c7c8eee0d2ca51e9d516fbd1989e2c281ad41af9260a7e13"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\registration-backup-boundaries.stderr.log",
+      "path": "verification/registration-flags-r2/registration-backup-boundaries.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\registration-backup-boundaries.stdout.log",
+      "path": "verification/registration-flags-r2/registration-backup-boundaries.stdout.log",
+      "sha256": "c2ebf53ef8a4a7441f62cdde4937240fae3a11a8028c6f2ad309cca1c8d353e9"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\replay-proof.json",
+      "path": "verification/registration-flags-r2/replay-proof.json",
+      "sha256": "eaa04bd99b8404f84e61bcf98590136a39c8ab2857eec8de1c2e1f21ccff2f34"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\reviewed-spec.json",
+      "path": "verification/registration-flags-r2/reviewed-spec.json",
+      "sha256": "323934d6f9265a7109f5c54450062ec94595db3235dd4c882e26d10d6258dd4d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\test_webauthn_registration_review.py",
+      "path": "verification/registration-flags-r2/test_webauthn_registration_review.py",
+      "sha256": "b5b67c0e1b42f2672b746a62741dfc95bc8b4e690be1dda94b829ccc0241c90d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\webauthn_fixture.py",
+      "path": "verification/registration-flags-r2/webauthn_fixture.py",
+      "sha256": "c618b14be18ce0620d8b9e9d409c6b386193405edaec5c047231fe7a579ed982"
+    }
+  ],
+  "reproduction_readme": "# Stateful passkey verification\n\nAI-assisted post-session independent review. These files are separate from the native trajectory. Install dependency-lock.txt from the account-review-r1 output, put the frozen checkout and the selected test revision on PYTHONPATH, and run the commands in reviewed-spec.json. Python 3.14.3. No external service, browser or USB is used. Generated ephemeral P-256 private keys stay in memory. The registration-backup-boundaries command intentionally fails one required boundary; see original stdout and metadata. The recorded console is an openly labelled automated demonstration executing demo.py against the frozen product. It does not represent manual typing.\n",
+  "no_model_source_edits": true,
+  "native_trace_included": false
+}

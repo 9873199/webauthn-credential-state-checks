@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-14T19:32:39+08:00",
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\tasks\\python-fido2\\env\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1/test_webauthn_review.py"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\replay-source",
+  "exit_code": 0,
+  "stdout_log": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\independent-account-boundaries.stdout.log",
+  "stderr_log": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\independent-account-boundaries.stderr.log"
+}

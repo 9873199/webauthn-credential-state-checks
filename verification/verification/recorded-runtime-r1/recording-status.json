@@ -1,0 +1,22 @@
+{
+  "video": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\recording-slow-r2\\product-run-75s.mp4",
+  "sha256": "455ea7579c7dc30b2752cd5325c6c225d18f71952b1973cf2ab410be6cb79af2",
+  "capture_exit_code": 0,
+  "continuous": true,
+  "nominal_seconds": 75,
+  "source": "Fresh actual console process executing frozen-product commands",
+  "helper_is_separate_verification_tool": true,
+  "content_qa": "PENDING",
+  "input_automation": {
+    "mode": "automated console character editor",
+    "source_is_human": false,
+    "character_delay_seconds": [
+      0.3,
+      2.0
+    ],
+    "planned_typing_seconds": 20.02980011561831,
+    "visible_corrections_per_command": 1,
+    "command_executes_only_after_exact_buffer_match": true
+  },
+  "keystroke_log": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\recording-slow-r2\\actual-keystrokes.jsonl"
+}

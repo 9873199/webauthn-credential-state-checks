@@ -1,0 +1,19 @@
+{
+  "independent_account_boundaries": {
+    "passed": 26,
+    "failed": 0
+  },
+  "registration_backup_boundaries": {
+    "passed": 3,
+    "failed": 1
+  },
+  "model_server_tests_replayed": {
+    "passed": 38,
+    "failed": 0
+  },
+  "nonhardware_regression": {
+    "passed": 202,
+    "failed": 0
+  },
+  "scopes_overlap_not_summed": true
+}

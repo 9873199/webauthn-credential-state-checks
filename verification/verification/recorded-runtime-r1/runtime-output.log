@@ -1,0 +1,9 @@
+Registered two software credentials with real P-256 keys.
+Account login: ACCEPTED; saved counter advances to 1.
+Other account: REJECTED (Credential ID not allowed for this request.)
+Wrong signature: REJECTED (Invalid signature.)
+Counter replay: REJECTED (Signature counter did not increase.)
+Invalid backup flags: REJECTED (Backup State set without Backup Eligibility in authenticator data.)
+Discoverable login: ACCEPTED for the matching saved account.
+Completed offline. No browser, USB or external service used.
+Registration with BS=1 / BE=0: ACCEPTED - validation missing.

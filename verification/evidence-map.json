@@ -1,0 +1,63 @@
+{
+  "requirements": [
+    {
+      "requirement": "Persist public key, account handle, signCount, BE/BS",
+      "source": "fido2/server.py:WebAuthnCredential.from_registration",
+      "result": "Fields preserved; illegal registration BS=1/BE=0 accepted (review registration-flags-r2)."
+    },
+    {
+      "requirement": "Bind allowed ID and user in begin; no wider completion collection",
+      "source": "authenticate_begin and authenticate_complete_stateful",
+      "result": "Independent allowed-scope/account-handle cases pass."
+    },
+    {
+      "requirement": "Discoverable userHandle identifies registered credential",
+      "source": "authenticate_complete_stateful candidate selection",
+      "result": "Required exact handle and raw ID; positive/negative tests pass."
+    },
+    {
+      "requirement": "Authenticated counter, backup flags, protocol invariants, immutability",
+      "source": "_verify_assertion_base/_verify_signature/_verify_backup_flags/_verify_counter",
+      "result": "Independent account-review-r1 cases pass."
+    },
+    {
+      "requirement": "Compatibility and documentation of persistence/single-use challenge",
+      "source": "authenticate_complete, docs/server_guide.rst",
+      "result": "Legacy check passed; documentation reviewed, no rendered-document build claimed."
+    }
+  ],
+  "process_issue": {
+    "native_lines": [
+      216,
+      325,
+      344,
+      345
+    ],
+    "file": "tests/test_server_stateful.py",
+    "details": "The added registration test exercises only UP|AT|BE and checks field persistence. Illegal BS without BE is exercised in assertion verification, not registration/factory."
+  },
+  "product_issue": {
+    "file": "fido2/server.py",
+    "function": "WebAuthnCredential.from_registration",
+    "trigger": "Legal registration response structure with UP|AT|BS (0x51), counter 0, generated credential key",
+    "observed": "register_complete and from_registration return a record with backup_state=True and backup_eligible=False; no ValueError.",
+    "evidence": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\registration-backup-boundaries.stdout.log"
+  },
+  "model_validation": {
+    "native_lines": [
+      330,
+      335,
+      345
+    ],
+    "observed": "38 server tests, 202 nonhardware tests, 33 stateful tests passed in separate scopes; not summed."
+  },
+  "independent_validation": [
+    "account-review-r1",
+    "registration-flags-r2"
+  ],
+  "time": "2026-11-14T19:42:48+08:00",
+  "uid": 869,
+  "frozen_commit": "c9440bf692c5bf4f175fc77d0a033f1700d18200",
+  "native_trace_sha256": "1bc9f5753d47b8b5992da83a0a403b33e4bf4a6d0d03ac78b8c8273b4ee18fee",
+  "no_model_source_changes_after_freeze": true
+}

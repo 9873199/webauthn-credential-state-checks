@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-14T19:38:50+08:00",
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\tasks\\python-fido2\\env\\Scripts\\python.exe",
+    "-B",
+    "-c",
+    "import importlib,json,sys;names=json.loads(sys.argv[1]);print(json.dumps({\"python\":sys.version,\"executable\":sys.executable,\"modules\":{n:importlib.import_module(n).__file__ for n in names}}))",
+    "[\"fido2.server\"]"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\replay-source",
+  "exit_code": 0,
+  "stdout_log": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\actual-import.stdout.log",
+  "stderr_log": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\registration-flags-r2\\actual-import.stderr.log"
+}

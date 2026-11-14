@@ -1,0 +1,37 @@
+{
+  "uid": 869,
+  "run_id": "uf-20261114-pause-recovery-python-fido2-launch2",
+  "reviewed": true,
+  "reviewer": "Codex primary evidence review",
+  "frozen_trace_sha256": "1bc9f5753d47b8b5992da83a0a403b33e4bf4a6d0d03ac78b8c8273b4ee18fee",
+  "revision": "registration-flags-r2",
+  "product_modules": [
+    "fido2.server"
+  ],
+  "support_files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\acceptance-preparation\\test_webauthn_registration_review.py",
+      "path": "test_webauthn_registration_review.py",
+      "sha256": "b5b67c0e1b42f2672b746a62741dfc95bc8b4e690be1dda94b829ccc0241c90d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\acceptance-preparation\\webauthn_fixture.py",
+      "path": "webauthn_fixture.py",
+      "sha256": "c618b14be18ce0620d8b9e9d409c6b386193405edaec5c047231fe7a579ed982"
+    }
+  ],
+  "commands": [
+    {
+      "name": "registration-backup-boundaries",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "{verification}/test_webauthn_registration_review.py"
+      ],
+      "timeout": 120
+    }
+  ]
+}

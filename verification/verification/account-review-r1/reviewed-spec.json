@@ -1,0 +1,64 @@
+{
+  "uid": 869,
+  "run_id": "uf-20261114-pause-recovery-python-fido2-launch2",
+  "reviewed": true,
+  "reviewer": "Codex primary evidence review",
+  "frozen_trace_sha256": "1bc9f5753d47b8b5992da83a0a403b33e4bf4a6d0d03ac78b8c8273b4ee18fee",
+  "revision": "account-review-r1",
+  "product_modules": [
+    "fido2.server"
+  ],
+  "support_files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\acceptance-preparation\\test_webauthn_review.py",
+      "path": "test_webauthn_review.py",
+      "sha256": "5c6449dd058f687016058d667adbd902e034c1aee2bda537288998a6b3154eef"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\acceptance-preparation\\webauthn_fixture.py",
+      "path": "webauthn_fixture.py",
+      "sha256": "c618b14be18ce0620d8b9e9d409c6b386193405edaec5c047231fe7a579ed982"
+    }
+  ],
+  "commands": [
+    {
+      "name": "independent-account-boundaries",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "{verification}/test_webauthn_review.py"
+      ],
+      "timeout": 180
+    },
+    {
+      "name": "model-stateful-server-tests",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_server_stateful.py",
+        "tests/test_server.py"
+      ],
+      "timeout": 180
+    },
+    {
+      "name": "nonhardware-regression",
+      "argv": [
+        "{python}",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "tests",
+        "--ignore=tests/device",
+        "--ignore=tests/test_pcsc.py"
+      ],
+      "timeout": 240
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "time": "2026-11-14T19:33:07+08:00",
+  "uid": 869,
+  "run_id": "uf-20261114-pause-recovery-python-fido2-launch2",
+  "actual": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\tasks\\python-fido2\\env\\Scripts\\python.exe",
+    "modules": {
+      "fido2.server": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\replay-source\\fido2\\server.py"
+    }
+  },
+  "replay_source": "D:\\hc\\userFeedback\\cache\\security-ten-20261114-r1\\evaluation\\uf-20261114-pause-recovery-python-fido2-launch2\\verification\\account-review-r1\\replay-source",
+  "frozen_hashes_unchanged": true,
+  "replay_source_hashes_unchanged": true,
+  "dependency_environment": "Reused the task dependency environment; exact pip freeze retained",
+  "commands": [
+    {
+      "name": "independent-account-boundaries",
+      "exit_code": 0
+    },
+    {
+      "name": "model-stateful-server-tests",
+      "exit_code": 0
+    },
+    {
+      "name": "nonhardware-regression",
+      "exit_code": 0
+    }
+  ],
+  "score": null,
+  "semantic_review": "PENDING"
+}
