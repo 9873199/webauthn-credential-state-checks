@@ -10,6 +10,7 @@ Welcome to python-fido2's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   server_guide
    autoapi/index
 
 

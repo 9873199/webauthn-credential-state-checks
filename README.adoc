@@ -16,6 +16,11 @@ WebAuthn support for a Relying Party.
 
 For usage, see the `examples/` directory and
 link:https://developers.yubico.com/python-fido2/API_Documentation/[API documentation].
+The `docs/server_guide.rst` file describes how to persist per-account
+credential records and use the stateful assertion verification
+(`authenticate_complete_stateful`), which binds a valid signature to the
+account that initiated the login and enforces the signature counter and
+authenticator backup flag rules.
 
 
 === References

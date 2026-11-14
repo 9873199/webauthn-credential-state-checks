@@ -38,7 +38,7 @@ import os
 
 from flask import Flask, abort, jsonify, redirect, request, session
 
-from fido2.server import Fido2Server
+from fido2.server import Fido2Server, WebAuthnCredential
 from fido2.webauthn import PublicKeyCredentialRpEntity, PublicKeyCredentialUserEntity
 
 app = Flask(__name__, static_url_path="")
@@ -47,10 +47,13 @@ app.secret_key = os.urandom(32)  # Used for session.
 rp = PublicKeyCredentialRpEntity(name="Demo server", id="localhost")
 server = Fido2Server(rp)
 
+USER_ID = b"user_id"
 
 # Registered credentials are stored globally, in memory only. Single user
-# support, state is lost when the server terminates.
-credentials = []
+# support, state is lost when the server terminates. A real application must
+# persist these records (including the user handle, sign count and backup
+# flags) in a database, keyed by credential ID and user handle.
+credentials: list[WebAuthnCredential] = []
 
 
 @app.route("/")
@@ -85,8 +88,12 @@ def register_complete():
     print("RegistrationResponse:", response)
     auth_data = server.register_complete(session["state"], response)
 
-    credentials.append(auth_data.credential_data)
-    print("REGISTERED CREDENTIAL:", auth_data.credential_data)
+    # Persist a full credential record: public key data, the account user
+    # handle, sign count and backup flags, all from the signed
+    # authenticator data.
+    credential = WebAuthnCredential.from_registration(USER_ID, auth_data)
+    credentials.append(credential)
+    print("REGISTERED CREDENTIAL:", credential)
     return jsonify({"status": "OK"})
 
 
@@ -95,6 +102,7 @@ def authenticate_begin():
     if not credentials:
         abort(404)
 
+    # Binds the allowed credential IDs and the account to the server state.
     options, state = server.authenticate_begin(credentials)
     session["state"] = state
 
@@ -108,12 +116,21 @@ def authenticate_complete():
 
     response = request.json
     print("AuthenticationResponse:", response)
-    server.authenticate_complete(
-        session.pop("state"),
+    # pop removes the state from the session: the challenge is single use and
+    # must never be accepted a second time.
+    state = session.pop("state")
+    credential, new_state = server.authenticate_complete_stateful(
+        state,
         credentials,
         response,
     )
-    print("ASSERTION OK")
+    # On success, persist the updated record (new sign count / backup state).
+    def _matches(cred):
+        return cred.credential_id == credential.credential_id
+
+    index = next(i for i, c in enumerate(credentials) if _matches(c))
+    credentials[index] = credential
+    print("ASSERTION OK", new_state)
     return jsonify({"status": "OK"})
 
 

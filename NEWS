@@ -3,6 +3,14 @@
     supporting additional signature algorithms while retaining the legacy fallback.
  ** MDS: Allow omitted userVerificationDetails and attachmentHint fields, as
     specified in Metadata Statement 3.1.1.
+ ** Server: Add stateful, account-binding assertion verification via the new
+    WebAuthnCredential record and Fido2Server.authenticate_complete_stateful.
+    authenticate_begin now binds the allowed credential IDs and account user
+    handle into the state. The new entry point additionally enforces the
+    userHandle binding, signature counter rules and backup flag (BE/BS) rules
+    from the signed authenticator data, and returns an updated record without
+    modifying the caller's data. The existing authenticate_complete remains
+    available unchanged.
 
 * Version 2.2.1 (released 2026-06-29)
  ** Server example: Migrate build tool from poetry to uv.
